@@ -14,7 +14,7 @@
     "next": "14.0.3",
     "chart.js": "^4.4.0",
     "react-chartjs-2": "^5.2.0",
-    
+    "survey-react-ui": "^1.9.117"
   },
   "devDependencies": {
     "typescript": "^5",
