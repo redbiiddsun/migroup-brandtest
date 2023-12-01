@@ -1,4 +1,4 @@
-export const highInvolvementProducts = {
+export const highInvolvementProducts: Question = {
     locale: 'en',
     type: "high",
     title: "High-Involvement Products Test",

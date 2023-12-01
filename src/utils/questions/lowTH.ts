@@ -1,4 +1,4 @@
-export const lowInvolvementProductsTH  = {
+export const lowInvolvementProductsTH: Question  = {
     locale: 'th',
     type: "low",
     title: "แบบทดสอบ Low involvement",
