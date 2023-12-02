@@ -1,6 +1,6 @@
-function extractKeys<T>(obj: result): Array<keyof T> {
-    return Object.keys(obj) as Array<keyof T>;
+export function extractKeys<T>(obj: result): string[] {
+    return Object.keys(obj);
 }
-function extractValues<T>(obj: result): Array<keyof T> {
-    return Object.values(obj) as Array<keyof T>;
+export function extractValues<T>(obj: result): number[] {
+    return Object.values(obj);
 }
