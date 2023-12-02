@@ -1,10 +1,9 @@
 import Image from "next/image";
 import type { InferGetServerSidePropsType, GetServerSideProps, GetStaticProps } from 'next'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-import { useTranslations } from 'next-intl';
-
-
-import ChartComponent from "@/component/chartComponent";
+// import ChartComponent from "@/component/chartComponent";
 
 // Component
 // import Iconic from "@/component/Iconic";
@@ -13,20 +12,31 @@ import ChartComponent from "@/component/chartComponent";
 // import CommunicationStrategy from "@/component/CommunicationStrategy";
 // import MiGroupRole from "@/component/MIGroup";
 
-export const getStaticProps: GetStaticProps = async (context) => {
-    
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+
     return {
-        props: {
-            messages: (await import(`../../../public/locales/${context.locale}.json`)).default,
-            data: {}
-        }
-    }
-}
+      props: {
+        ...(await serverSideTranslations(context.locale ?? 'en',)),
+      },
+    };
+  };
+
+
+// export default function Page(_props: InferGetServerSidePropsType<typeof getServerSideProps>){
+    
+//     return (
+//         <div>
+//             <p>{t('result.name')}</p>
+//         </div>
+//     )
+// }
 
 
 export default function resultPage({ message, data }: any) {
 
-    const t = useTranslations();
+    const { t } = useTranslation('common')
+
     return (
         <>
             <div className="bg-lightgrey min-h-[100vh] h-auto py-0 md:py-14 md:px-20 xl:px-60 content-center">
@@ -52,7 +62,7 @@ export default function resultPage({ message, data }: any) {
                         </div>
                         <div className="text-center">
                             <div className="text-xl lg:text-24 pt-9">
-                                {t('titleA')}
+                                {t('brandchartTitle')}
                             </div>
                             <div className="text-2xl text-indigo">
                                 {message?.animalDetail?.brandChart}
