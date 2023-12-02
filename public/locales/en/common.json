@@ -1,31 +1,32 @@
 {
-
         "brandchartTitle": "Your brand chart is:",
-        "titleA": "A. Descriptions",
-        "exampleTitleA": "Example of Existing Brands:",
-        "metaphorTitle": "Metaphor:",
-        "strengthsTitle": "Strengths:",
-        "weaknessesTitle": "Weaknesses:",
-        "result":{
-                "name": "'SIM'"
+        "SectionA": {
+                "titleA": "A. Descriptions",
+                "exampleTitleA": "Example of Existing Brands:",
+                "metaphorTitle": "Metaphor:",
+                "strengthsTitle": "Strengths:",
+                "weaknessesTitle": "Weaknesses:"
         },
-        "titleB": "B. Marketing Strategy",
-        "exampleTitleB": "Marketing Strategy Examples:",
-        "avoidMarketingTitle": "Marketing Strategy – to avoid:",
-        "trendsToCaptureTitle": "Trend Should be Captured:",
-        "trendsToAvoidTitle": "Trend Shouldn&apos;t be Captured:",
-
-        "titleC": "C. Communication Strategy",
-        "commuStraTitle": "Communication Strategy:",
-        "mediaStraTitle": "Media Strategy:",
-        "avoidMediaStraTitle": "Media Strategy to Avoid:",
-        "medaiSelecTitle": "Media Selections:",
-        
-        "titleD": "D. MI GROUP’s Roles",
-        "strengthTitle": "Strength: ",
-        "mistrengthTitle": "MI GROUP to Strengthen Strengths:",
-        "leverageTitle": "Leverage:",
-        "implementTitle": "Implementation:",
-        "miWeaknessesTitle": "MI GROUP to Strengthen Weakness:"
-
+        "SectionB": {
+                "titleB": "B. Marketing Strategy",
+                "exampleTitleB": "Marketing Strategy Examples:",
+                "avoidMarketingTitle": "Marketing Strategy – to avoid:",
+                "trendsToCaptureTitle": "Trend Should be Captured:",
+                "trendsToAvoidTitle": "Trend Shouldn&apos;t be Captured:"
+        },
+        "SectionC": {
+                "titleC": "C. Communication Strategy",
+                "commuStraTitle": "Communication Strategy:",
+                "mediaStraTitle": "Media Strategy:",
+                "avoidMediaStraTitle": "Media Strategy to Avoid:",
+                "medaiSelecTitle": "Media Selections:"
+        },
+        "SectionD": {
+                "titleD": "D. MI GROUP’s Roles",
+                "strengthTitle": "Strength: ",
+                "mistrengthTitle": "MI GROUP to Strengthen Strengths:",
+                "leverageTitle": "Leverage:",
+                "implementTitle": "Implementation:",
+                "miWeaknessesTitle": "MI GROUP to Strengthen Weakness:"
+        }
 }

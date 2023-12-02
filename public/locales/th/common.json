@@ -1,26 +1,32 @@
 {
-
         "brandchartTitle": "ผลทดสอบบุคลิกภาพของแบรนด์คุณ",
-        "titleA": "A. คำอธิบายลักษณะ",
-        "exampleTitleA": "ตัวอย่างแบรนด์ที่มีลักษณะนี้ :",
-        "metaphorTitle": "ความหมาย :",
-        "strengthsTitle": "จุดแข็ง :",
-        "weaknessesTitle": "จุดอ่อน :",
-        "titleB": "B. กลยุทธ์การตลาดที่เหมาะสม",
-        "exampleTitleB": "ตัวอย่างกลยุทธ์การตลาด :",
-        "avoidMarketingTitle": "การสูญเสียจุดยืน :",
-        "trendsToCaptureTitle": "เทรนด์ที่ควรจับตามอง :",
-        "trendsToAvoidTitle": "เทรนด์ที่ควรระวัง :",
-        "titleC": "C. กลยุทธ์การสื่อสารที่เหมาะสม",
-        "commuStraTitle": "กลยุทธ์การสื่อสาร :",
-        "mediaStraTitle": "กลยุทธ์การใช้สื่อ :",
-        "avoidMediaStraTitle": "กลยุทธ์การใช้สื่อที่ควรระวัง :",
-        "medaiSelecTitle": "การเลือกสื่อ :",
-        "titleD": "D. บทบาทของ MI GROUP",
-        "strengthTitle": "จุดแข็งของช้าง :",
-        "mistrengthTitle": "MI GROUP จะช่วยเสริมความแข็งแกร่งของแบรนด์ได้อย่างไร :",
-        "leverageTitle": "การใช้ประโยชน์ :",
-        "implementTitle": "การดำเนินการและการปรับใช้ :",
-        "miWeaknessesTitle": "MI GROUP จะช่วยสนับสนุนแบรนด์ได้อย่างไร :"
-
+        "SectionA": {
+                "titleA": "A. คำอธิบายลักษณะ",
+                "exampleTitleA": "ตัวอย่างแบรนด์ที่มีลักษณะนี้ :",
+                "metaphorTitle": "ความหมาย :",
+                "strengthsTitle": "จุดแข็ง :",
+                "weaknessesTitle": "จุดอ่อน :"
+        },
+        "SectionB": {
+                "titleB": "B. กลยุทธ์การตลาดที่เหมาะสม",
+                "exampleTitleB": "ตัวอย่างกลยุทธ์การตลาด :",
+                "avoidMarketingTitle": "การสูญเสียจุดยืน :",
+                "trendsToCaptureTitle": "เทรนด์ที่ควรจับตามอง :",
+                "trendsToAvoidTitle": "เทรนด์ที่ควรระวัง :"
+        },
+        "SectionC": {
+                "titleC": "C. กลยุทธ์การสื่อสารที่เหมาะสม",
+                "commuStraTitle": "กลยุทธ์การสื่อสาร :",
+                "mediaStraTitle": "กลยุทธ์การใช้สื่อ :",
+                "avoidMediaStraTitle": "กลยุทธ์การใช้สื่อที่ควรระวัง :",
+                "medaiSelecTitle": "การเลือกสื่อ :"
+        },
+        "SectionD": {
+                "titleD": "D. บทบาทของ MI GROUP",
+                "strengthTitle": "จุดแข็งของช้าง :",
+                "mistrengthTitle": "MI GROUP จะช่วยเสริมความแข็งแกร่งของแบรนด์ได้อย่างไร :",
+                "leverageTitle": "การใช้ประโยชน์ :",
+                "implementTitle": "การดำเนินการและการปรับใช้ :",
+                "miWeaknessesTitle": "MI GROUP จะช่วยสนับสนุนแบรนด์ได้อย่างไร :"
+        }
 }
