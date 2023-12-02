@@ -1,20 +1,6 @@
-export function objToArrayValue(json: result) {
-    var resultArray = [];
-
-    for (const [key, value] of Object.entries(json)) {
-        resultArray.push(value);
-    }
-
-    return resultArray;
+export function extractKeys<T>(obj: result): string[] {
+    return Object.keys(obj);
 }
-
-export function objToArrayKey(json: result) {
-    var resultArray = [];
-
-    for (const [key, value] of Object.entries(json)) {
-		
-        resultArray.push(key);
-    }
-
-    return resultArray;
+export function extractValues<T>(obj: result): number[] {
+    return Object.values(obj);
 }

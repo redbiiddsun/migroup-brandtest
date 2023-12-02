@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/utils/calulateAnimal.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/utils/calulateAnimal.js", "next-i18next.config.js"],
   "exclude": ["node_modules"]
 }
