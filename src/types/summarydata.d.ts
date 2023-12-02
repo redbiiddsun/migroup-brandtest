@@ -16,15 +16,16 @@ type dataset = {
 };
 
 type animalDetail = {
-    name?: string;
-    image?: string;
-    logo?: string;
-    shortdescription?: string;
-    brandChart?: string;
-    A?: A;
-    B?: B;
-    C?: C;
-    D?: D;
+    name: string;
+    image: string;
+    logo: string;
+    color: string;
+    shortdescription: string;
+    brandChart: string;
+    A: A;
+    B: B;
+    C: C;
+    D: D;
 };
 
 type A = {
