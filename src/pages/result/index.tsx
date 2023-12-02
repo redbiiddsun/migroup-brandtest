@@ -9,7 +9,7 @@ import summaryData from "@/utils/summarydata";
 // Components
 import Header from "@/components/Header";
 import ChartComponent from "@/components/ChartComponent";
-import Descriptions from "@/components/description";
+import Descriptions from "@/components/Description";
 import MarketingStrategy from "@/components/MarketingStrategy";
 import CommunicationStrategy from "@/components/CommunicationStrategy";
 import MiGroupRole from "@/components/MIGroup";
