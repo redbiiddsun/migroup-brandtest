@@ -66,7 +66,7 @@ export function calculateAnimal(areaScores) {
                 suggestions.add(animal);
             }
         });
-        return `Based on your inputs, here are some suggestions: ${Array.from(suggestions).join(', ')}`;
+        return Array.from(suggestions).join(', ');
     }
 
     // Check patterns for specific animals
