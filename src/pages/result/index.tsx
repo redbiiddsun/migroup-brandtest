@@ -55,6 +55,7 @@ export default function Page({ data }: { data: summaryData }) {
                         width={10000}
                         height={10000}
                         alt="background"
+                        priority={true}
                         src={data?.animalDetail?.image}
                         className="absolute top-0 left-0 z-10 lg:rounded-2xl md:rounded-2xl"
                     />
