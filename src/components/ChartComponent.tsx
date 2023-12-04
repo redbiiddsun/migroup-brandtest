@@ -31,10 +31,8 @@ export default function ChartComponent({ data }: any) {
         {
           label: data?.chartData?.datasets?.label,
           data: data?.chartData?.datasets?.data,
-          // borderColor: '#957CB6',
-          // backgroundColor: '#957CB6',
-          backgroundColor: 'rgba(255, 99, 132, 0.2)',
-          borderColor: 'rgba(255, 99, 132, 2)',
+          backgroundColor: data?.animalDetail?.bgcolor,
+          borderColor: data?.animalDetail?.color,
           borderWidth: 1,
           
         },
