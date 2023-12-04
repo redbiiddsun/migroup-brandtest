@@ -20,7 +20,7 @@ type animalDetail = {
     image: string;
     logo: string;
     color: string;
-    bgColor: string;
+    bgcolor: string;
     shortdescription: string;
     brandChart: string;
     A: A;
