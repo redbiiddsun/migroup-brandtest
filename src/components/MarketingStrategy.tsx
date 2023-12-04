@@ -15,7 +15,7 @@ export default function MarketingStrategy({data, t}: {data: summaryData, t: TFun
               <li key={index}>{result}</li>
             )
           )}
-          
+          <br></br>
         </div>
         <div>
           <p>{t('SectionB.avoidMarketingTitle')}</p>
@@ -24,6 +24,7 @@ export default function MarketingStrategy({data, t}: {data: summaryData, t: TFun
               <li key={index}>{result}</li>
             )
           )}
+          <br></br>
         </div>
         <div>
           <p>{t('SectionB.trendsToCaptureTitle')}</p>
@@ -33,6 +34,7 @@ export default function MarketingStrategy({data, t}: {data: summaryData, t: TFun
             )
           )}
         </div>
+        <br></br>
         <div>
           <p>{t('SectionB.trendsToAvoidTitle')}</p>
           {data?.animalDetail?.B?.trendsToAvoid.map(
@@ -40,6 +42,7 @@ export default function MarketingStrategy({data, t}: {data: summaryData, t: TFun
               <li key={index}>{result}</li>
             )
           )}
+          <br></br>
         </div>
       </div>
     </>
