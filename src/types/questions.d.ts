@@ -19,6 +19,7 @@ type QuestionElement = {
   type: string;
   name: string;
   title: string;
+  displayMode: string;
   description: string;
   autoGenerate: boolean;
   rateCount: number;
