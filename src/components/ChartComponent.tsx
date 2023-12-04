@@ -36,7 +36,7 @@ export default function ChartComponent({ data }:any) {
         display: false, // Set to false to hide the legend
       },
     },
-    // maintainAspectRatio: false, // Set to false for responsiveness
+    maintainAspectRatio: true, // Set to false for responsiveness
     responsive: true,           // Set to true for responsiveness
   };
 

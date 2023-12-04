@@ -69,9 +69,9 @@ export default function Page({ data }: { data: summaryData }) {
                             </div>
                             <div className={`px-8 text-2xl text-indigo`} style={{color: data?.animalDetail?.color}}>
                                 {data?.animalDetail?.brandChart}
-                            </div>
+                            </div> 
                         </div>
-                        <div className="mx-0 lg:px-44 content-center">
+                        <div className="m-auto px-2 lg:px-44 ontent-center">
                             <ChartComponent data={data}/>
                         </div>
                     </div>
