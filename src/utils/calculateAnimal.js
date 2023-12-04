@@ -35,19 +35,23 @@ export function calculateAnimal(areaScores) {
     // Handling the scenario with three identical peak scores
     const threeSamePeakScores = Object.entries(scoreCounts).filter(([score, count]) => count === 3 && score > averageValue).map(([score]) => parseFloat(score));
     
+    // if (threeSamePeakScores.length > 0) {
+    //     const peakIndices = areaScores.map((score, index) => score === threeSamePeakScores[0] ? index : -1).filter(index => index !== -1);
+    //     const combinations = [[peakIndices[0], peakIndices[1]], [peakIndices[0], peakIndices[2]], [peakIndices[1], peakIndices[2]]];
+    //     let suggestions = new Set();
+    //     combinations.forEach(combination => {
+    //         const pattern = [0, 1, 2, 3, 4].map(i => combination.includes(i));
+    //         Object.entries(animals).forEach(([animal, pat]) => {
+    //             if (arraysEqual(pat, pattern)) {
+    //                 suggestions.add(animal);
+    //             }
+    //         });
+    //     });
+    //     return `Based on your inputs, here are some suggestions: ${Array.from(suggestions).join(', ')}`;
+    // }
+
     if (threeSamePeakScores.length > 0) {
-        const peakIndices = areaScores.map((score, index) => score === threeSamePeakScores[0] ? index : -1).filter(index => index !== -1);
-        const combinations = [[peakIndices[0], peakIndices[1]], [peakIndices[0], peakIndices[2]], [peakIndices[1], peakIndices[2]]];
-        let suggestions = new Set();
-        combinations.forEach(combination => {
-            const pattern = [0, 1, 2, 3, 4].map(i => combination.includes(i));
-            Object.entries(animals).forEach(([animal, pat]) => {
-                if (arraysEqual(pat, pattern)) {
-                    suggestions.add(animal);
-                }
-            });
-        });
-        return `${Array.from(suggestions).join(', ')}`;
+        return "Elephant";
     }
 
     // Handling scenario with three distinct great areas
@@ -62,7 +66,7 @@ export function calculateAnimal(areaScores) {
                 suggestions.add(animal);
             }
         });
-        return `${Array.from(suggestions).join(', ')}`;
+        return `Based on your inputs, here are some suggestions: ${Array.from(suggestions).join(', ')}`;
     }
 
     // Check patterns for specific animals
