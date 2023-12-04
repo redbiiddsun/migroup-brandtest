@@ -18,29 +18,46 @@ ChartJS.register(
   Legend
 );
 
-export default function ChartComponent({ data }: any) {
+export default function ChartComponent({ data }:any) {
+
+  const options = {
+    scales: {
+      r: {
+        suggestedMin: 0,  // Set your minimum value
+        suggestedMax: 5, // Set your maximum value
+        ticks: {
+          beginAtZero: true,
+          stepSize: 1,     // Set your desired step size
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false, // Set to false to hide the legend
+      },
+    },
+    maintainAspectRatio: true, // Set to false for responsiveness
+    responsive: true,           // Set to true for responsiveness
+  };
 
   return (
     <Radar
-    updateMode='resize'
-    datasetIdKey='id'
-    
-    data={{
-      labels: data?.chartData?.labels,
-      datasets: [
-        {
-          label: data?.chartData?.datasets?.label,
-          data: data?.chartData?.datasets?.data,
-          // borderColor: '#957CB6',
-          // backgroundColor: '#957CB6',
-          backgroundColor: 'rgba(255, 99, 132, 0.2)',
-          borderColor: 'rgba(255, 99, 132, 2)',
-          borderWidth: 1,
-          
-        },
-      ],
-    }}
-    />
+      updateMode='resize'
+      datasetIdKey='id'
+      options={options}
+      data={{
 
+        labels: data?.chartData?.labels,
+        datasets: [
+          {
+            label: data?.chartData?.datasets?.label,
+            data: data?.chartData?.datasets?.data,
+            backgroundColor: data?.animalDetail?.bgcolor,
+            borderColor: data?.animalDetail?.color,
+            borderWidth: 1,
+          },
+        ],
+      }}
+    />
   )
 }

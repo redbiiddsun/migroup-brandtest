@@ -58,8 +58,8 @@ export default function Page({ data }: { data: summaryData }) {
                         src={data?.animalDetail?.image}
                         className="absolute top-0 left-0 z-10 lg:rounded-2xl md:rounded-2xl"
                     />
-                    <div className="sticky w-full z-30">
-                        <Header title={t('title')} img={data.animalDetail.logo} data={data} />
+                    <div className="sticky w-full z-30 text-center">
+                        <Header title={t('title')} img={data?.animalDetail?.logo} data={data} />
                         <div className={`text-base pt-3 px-7 md:px-28 lg:px-52 text-center`} >
                             {data?.animalDetail?.shortdescription}
                         </div>
@@ -67,12 +67,12 @@ export default function Page({ data }: { data: summaryData }) {
                             <div className="text-xl lg:text-24 pt-9">
                                 {t('brandchartTitle')}
                             </div>
-                            <div className={`px-8 text-2xl text-indigo text-[${data?.animalDetail?.color}]`}>
+                            <div className={`px-8 text-2xl text-indigo`} style={{color: data?.animalDetail?.color}}>
                                 {data?.animalDetail?.brandChart}
-                            </div>
+                            </div> 
                         </div>
-                        <div className="mx-0  lg:px-44">
-                            <ChartComponent data={data} className="px-4" />
+                        <div className="m-auto px-2 lg:px-44 ontent-center">
+                            <ChartComponent data={data}/>
                         </div>
                     </div>
                     <div className="px-9 pb-9">

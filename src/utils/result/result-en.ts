@@ -5,6 +5,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Elephant.png",
       logo: "/assets/icons/Elephant.png",
       color: "#717171",
+      bgcolor: "rgba(113, 113, 113, 0.5)",
       shortdescription:
         "Symbolizes a brand with robust, comprehensive competence and reliability across a diverse range of products or services. Its marketing emphasizes broad proficiency and versatility, underlining the brand's ability to deliver consistent quality. Strengths include its comprehensive competence and versatility, but it faces challenges in rapid adaptability and innovation.",
       brandChart: "Balanced and Well-Rounded",
@@ -72,6 +73,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Lion.png",
       logo: "/assets/icons/Lion.png",
       color: "#DC1F3F",
+      bgcolor: "rgba(220, 31, 63, 0.5)",
       shortdescription:
         "Epitomizes strong, dominant leadership and prestige. Marketing for the Lion brand focuses on highlighting its authoritative position and legacy of innovation. Strengths lie in its commanding market presence and leadership, but it may encounter difficulties in adapting to fast-changing cultural trends.",
       brandChart: "Strength and Leadership",
@@ -137,12 +139,13 @@ export const resultEN = {
       image: "/assets/backgrounds/Cheetah.png",
       logo: "/assets/icons/Cheetah.png",
       color: "#B6872D",
+      bgcolor: "rgba(182, 135, 45, 0.5)",
       shortdescription:
         "Represents swift, trendsetting engagement, and responsiveness. Marketing strategies emphasize its agility and ability to quickly adapt to market changes. The Cheetah excels in dynamic, fast-paced environments but might struggle with long-term strategic planning.",
       brandChart: "High Engagement and Perception",
       A: {
         description: "Dynamic, Fast, Engaging",
-        example: "Heineken",
+        example: "Samsung",
         metaphor:
           "The Cheetah represents brands that are dynamic, fast, and highly engaging, rapidly adapting to consumer needs and trends.",
         strengths:
@@ -204,13 +207,14 @@ export const resultEN = {
       image: "/assets/backgrounds/Swan.png",
       logo: "/assets/icons/Swan.png",
       color: "#957CB6",
+      bgcolor: "rgba(149, 124, 182, 0.5)",
       shortdescription:
         "Symbolizes an enchanting brand perception and deep customer relationships. Marketing strategies focus on building emotional connections through memorable brand experiences. The Swan thrives in creating strong emotional ties but may face challenges in highly competitive, price-driven markets.",
       brandChart:
         "Deeply Connected: Brand Perception and Customer Relationship",
       A: {
         description: "Distinct, Memorable, Relational Excellence",
-        example: "Samsung",
+        example: "Starbucks",
         metaphor:
           "The Swan epitomizes brands that blend strong brand perceptions with deep customer connections, reflecting trustworthiness, and individuality.",
         strengths:
@@ -273,6 +277,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Hawk.png",
       logo: "/assets/icons/Hawk.png",
       color: "#607D81",
+      bgcolor: "rgba(96, 125, 129, 0.5)",
       shortdescription:
         "Stands for strategic focus, precision, and quality. Its marketing strategies emphasize innovation and excellence, targeting a discerning audience. The Hawk is adept in sectors where strategic focus and high-quality offerings are key, but may not fare as well in broader, less differentiated markets.",
       brandChart: "Strategic and Focused Perception",
@@ -340,12 +345,13 @@ export const resultEN = {
       image: "/assets/backgrounds/Horse.png",
       logo: "/assets/icons/Horse.png",
       color: "#533C1D",
+      bgcolor: "rgba(83, 60, 29, 0.5)",
       shortdescription:
         "Signifies energetic market leadership and dependable value. Marketing focuses on demonstrating the brand's dynamic approach and leadership in its field. The Horse brand is well-suited to competitive, fast-moving markets but may need to adapt its strategies in more niche, specialized areas.",
       brandChart: "Dynamic Value & Market Leadership",
       A: {
         description: "Energetic, Leading, Dependable",
-        example: "Redbull",
+        example: "Ikea",
         metaphor:
           "The Horse stands for brands characterized by their dynamic value and strong leadership in the market. They are brands that set trends and have an undeniable stamina in their respective domains.",
         strengths:
@@ -406,6 +412,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Labrador.png",
       logo: "/assets/icons/Labrador.png",
       color: "#FDD701",
+      bgcolor: "rgba(253, 215, 1, 0.5)",
       shortdescription:
         "Embodies trust, loyalty, and strong customer relationships. Marketing efforts focus on emphasizing the brand's reliability and its strong bond with customers. The Labrador brand excels in maintaining customer loyalty but might face challenges in rapidly evolving, innovation-driven markets.",
       brandChart: "High Value and Relationship-Centric",
@@ -473,6 +480,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Turtle.png",
       logo: "/assets/icons/Turtle.png",
       color: "#3FAFA3",
+      bgcolor: "rgba(63, 175, 163, 0.5)",
       shortdescription:
         "Represents steady value and reliability in its product offerings. Marketing for the Turtle brand focuses on highlighting the long-term value and durability of its products. The brand is strong in markets that value consistency and durability but may need to adapt to rapidly changing consumer trends.",
       brandChart: "High Value and Product-Centric",
@@ -539,6 +547,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Butterfly.png",
       logo: "/assets/icons/Butterfly.png",
       color: "#F169A7",
+      bgcolor: "rgba(241, 105, 167, 0.5)",
       shortdescription:
         "Symbolizes transformation and vibrant, dynamic relationships. Marketing strategies focus on showcasing the brand's adaptability and creativity. The Butterfly brand thrives in environments that value innovation and creativity but might struggle in more traditional, static markets.",
       brandChart: "Diverse and Transformative",
@@ -605,6 +614,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Dolphin.png",
       logo: "/assets/icons/Dolphin.png",
       color: "#8ACCEC",
+      bgcolor: "rgba(138, 204, 236, 0.5)",
       shortdescription:
         "Embodies playful engagement and a diverse range of high-quality offerings. Marketing emphasizes the brand's versatility and its ability to connect with a wide audience. The Dolphin brand is strong in markets that value engagement and diversity but may face challenges in more uniform, traditional sectors.",
       brandChart: "High Engagement and Diverse Excellence",
@@ -672,12 +682,13 @@ export const resultEN = {
       image: "/assets/backgrounds/Panda.png",
       logo: "/assets/icons/Panda.png",
       color: "#C4C0BC",
+      bgcolor: "rgba(196, 192, 188, 0.5)",
       shortdescription:
         "Represents a charming, customer-centric approach coupled with excellent product offerings. Marketing focuses on emotional branding and high-quality products. The Panda brand excels in markets that value emotional connections and quality but may struggle in highly price-competitive environments.",
       brandChart: "Endearing Charm and Excellence",
       A: {
         description: "Endearing, Excellent Offerings, Customer-Centric",
-        example: "Cadbury",
+        example: "Oreo",
         metaphor:
           "The Panda symbolizes brands with an inherent charm that prioritize customer relationships, offering products of high excellence, all while maintaining an endearing brand image.",
         strengths:
@@ -739,6 +750,7 @@ export const resultEN = {
       image: "/assets/backgrounds/Fox.png",
       logo: "/assets/icons/Fox.png",
       color: "#B74523",
+      bgcolor: "rgba(183, 69, 35, 0.5)",
       shortdescription:
         "Denotes cunning adaptability and potential for significant growth. Marketing strategies highlight the brand's innovative approach and potential to disrupt existing markets. The Fox brand shows promise in evolving markets but is in the process of establishing a strong, definitive market position.",
       brandChart: "Potential for Growth",
