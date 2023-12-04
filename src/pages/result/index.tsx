@@ -58,7 +58,7 @@ export default function Page({ data }: { data: summaryData }) {
                         src={data?.animalDetail?.image}
                         className="absolute top-0 left-0 z-10 lg:rounded-2xl md:rounded-2xl"
                     />
-                    <div className="sticky w-full z-30">
+                    <div className="sticky w-full z-30 text-center">
                         <Header title={t('title')} img={data?.animalDetail?.logo} data={data} />
                         <div className={`text-base pt-3 px-7 md:px-28 lg:px-52 text-center`} >
                             {data?.animalDetail?.shortdescription}
@@ -71,8 +71,8 @@ export default function Page({ data }: { data: summaryData }) {
                                 {data?.animalDetail?.brandChart}
                             </div>
                         </div>
-                        <div className="mx-0  lg:px-44">
-                            <ChartComponent data={data} className="px-4" />
+                        <div className="mx-0 lg:px-44 content-center">
+                            <ChartComponent data={data}/>
                         </div>
                     </div>
                     <div className="px-9 pb-9">

@@ -18,7 +18,7 @@ ChartJS.register(
   Legend
 );
 
-export default function ChartComponent({ data }: any) {
+export default function ChartComponent({ data }:any) {
 
   const options = {
     scales: {
@@ -36,6 +36,8 @@ export default function ChartComponent({ data }: any) {
         display: false, // Set to false to hide the legend
       },
     },
+    // maintainAspectRatio: false, // Set to false for responsiveness
+    responsive: true,           // Set to true for responsiveness
   };
 
   return (
