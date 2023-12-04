@@ -67,7 +67,7 @@ export default function Page({ data }: { data: summaryData }) {
                             <div className="text-xl lg:text-24 pt-9">
                                 {t('brandchartTitle')}
                             </div>
-                            <div className={`text-2xl text-indigo text-[${data?.animalDetail?.color}]`}>
+                            <div className={`px-8 text-2xl text-indigo text-[${data?.animalDetail?.color}]`}>
                                 {data?.animalDetail?.brandChart}
                             </div>
                         </div>

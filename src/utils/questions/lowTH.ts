@@ -10,6 +10,7 @@ export const lowInvolvementProductsTH: Question = {
   pages: [
     {
       name: "Brand Perception",
+      title: "Brand Perception",
       elements: [
         {
           type: "rating",
@@ -65,6 +66,7 @@ export const lowInvolvementProductsTH: Question = {
     },
     {
       name: "Brand Value",
+      title: "Brand Value",
       elements: [
         {
           type: "rating",
@@ -135,6 +137,7 @@ export const lowInvolvementProductsTH: Question = {
     },
     {
       name: "Customer Relationship",
+      title: "Customer Relationship",
       elements: [
         {
           type: "rating",
@@ -163,6 +166,7 @@ export const lowInvolvementProductsTH: Question = {
     },
     {
       name: "Product Excellence",
+      title: "Product Excellence",
       elements: [
         {
           type: "rating",
