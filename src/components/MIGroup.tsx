@@ -10,6 +10,7 @@ export default function MiGroupRole({ data, t }: { data: summaryData, t: TFuncti
         <li>{`${t('SectionD.leverageTitle')} ${data?.animalDetail?.D?.MIGrouptoStrength?.leverage}`} </li>
         <li>{`${t('SectionD.implementTitle')} ${data?.animalDetail?.D?.MIGrouptoStrength?.implementation}`}</li>
         <p>{`${t('SectionA.weaknessesTitle')} ${data?.animalDetail?.D?.weakness}`}</p>
+        <br></br>
         <p>{t('SectionD.miWeaknessesTitle')}</p>
         <li>{`${t('SectionD.implementTitle')} ${data?.animalDetail?.D?.MIGrouptoStrength?.implementation}`}</li>
       </div>

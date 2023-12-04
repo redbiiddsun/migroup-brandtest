@@ -10,6 +10,7 @@ export const lowInvolvementProducts: Question = {
   pages: [
     {
       name: "Brand Perception",
+      title: "Brand Perception",
       elements: [
         {
           type: "rating",
@@ -21,6 +22,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -32,6 +34,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -42,6 +45,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -53,11 +57,13 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Brand Value",
+      title: "Brand Value",
       elements: [
         {
           type: "rating",
@@ -68,6 +74,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -79,6 +86,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -90,11 +98,13 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Market Engagement",
+      title: "Market Engagement",
       elements: [
         {
           type: "rating",
@@ -106,6 +116,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -117,11 +128,13 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Customer Relationship",
+      title: "Customer Relationship",
       elements: [
         {
           type: "rating",
@@ -133,6 +146,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -144,11 +158,13 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Product Excellence",
+      title: "Product Excellence",
       elements: [
         {
           type: "rating",
@@ -159,6 +175,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -170,6 +187,7 @@ export const lowInvolvementProducts: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },

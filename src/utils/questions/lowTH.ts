@@ -10,6 +10,7 @@ export const lowInvolvementProductsTH: Question = {
   pages: [
     {
       name: "Brand Perception",
+      title: "Brand Perception",
       elements: [
         {
           type: "rating",
@@ -22,6 +23,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -34,6 +36,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -45,6 +48,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -56,11 +60,13 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Brand Value",
+      title: "Brand Value",
       elements: [
         {
           type: "rating",
@@ -72,6 +78,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -83,6 +90,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -94,6 +102,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
@@ -110,6 +119,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -121,11 +131,13 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Customer Relationship",
+      title: "Customer Relationship",
       elements: [
         {
           type: "rating",
@@ -136,6 +148,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -147,11 +160,13 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
     {
       name: "Product Excellence",
+      title: "Product Excellence",
       elements: [
         {
           type: "rating",
@@ -162,6 +177,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -173,6 +189,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
