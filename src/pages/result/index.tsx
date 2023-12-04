@@ -59,7 +59,7 @@ export default function Page({ data }: { data: summaryData }) {
                         className="absolute top-0 left-0 z-10 lg:rounded-2xl md:rounded-2xl"
                     />
                     <div className="sticky w-full z-30">
-                        <Header title={t('title')} img={data.animalDetail.logo} data={data} />
+                        <Header title={t('title')} img={data?.animalDetail?.logo} data={data} />
                         <div className={`text-base pt-3 px-7 md:px-28 lg:px-52 text-center`} >
                             {data?.animalDetail?.shortdescription}
                         </div>
