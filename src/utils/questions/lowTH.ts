@@ -22,6 +22,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -34,6 +35,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -45,6 +47,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -56,6 +59,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
@@ -72,6 +76,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -83,6 +88,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -94,6 +100,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
@@ -110,6 +117,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -121,6 +129,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
@@ -136,6 +145,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -147,6 +157,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
@@ -162,6 +173,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
         {
           type: "rating",
@@ -173,6 +185,7 @@ export const lowInvolvementProductsTH: Question = {
           rateCount: 5,
           isRequired: true,
           rateValues: [1, 2, 3, 4, 5],
+          displayMode: "buttons"
         },
       ],
     },
