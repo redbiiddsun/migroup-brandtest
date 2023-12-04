@@ -1,4 +1,9 @@
-function calculateAnimal(areaScores) {
+/**
+ * Determines the corresponding animal based on the scores provided.
+ * @param {number[]} areaScores - Array of scores for different areas.
+ * @returns {string} - The name of the animal or a suggestion message.
+ */
+export function calculateAnimal(areaScores) {
     const averageValue = 3.5;  // Threshold for considering an area as "great"
 
     // Map scores to boolean values indicating if they are "great"
