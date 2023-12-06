@@ -12,6 +12,7 @@ type Question = {
 type QuestionPage = {
   name: string;
   title?: string;
+  description?: string;
   elements: QuestionElement[];
 };
 
