@@ -11,6 +11,7 @@ export const lowInvolvementProducts: Question = {
     {
       name: "Brand Perception",
       title: "Brand Perception",
+      description: "<b>Description:</b> Measures how positively or negatively the brand is viewed in the minds of the consumers. It\'s a combination of brand recognition, reputation, and the emotional connection consumers have with the brand <br><br> <b>Rationale:</b> Brand perception plays a vital role in influencing buying decisions, loyalty, and advocacy. It\'s the culmination of all brand touchpoints over time.",
       elements: [
         {
           type: "rating",
@@ -64,6 +65,7 @@ export const lowInvolvementProducts: Question = {
     {
       name: "Brand Value",
       title: "Brand Value",
+      description: "<b>Description:</b> Represents the tangible and intangible assets associated with the brand. It's an assessment of how much value (financial, strategic, or equity) the brand brings to the market and its stakeholders. <br><br> <b>Rationale:</b> Brand value is crucial for market positioning, competitive advantage, and financial growth. A brand with high value can command higher prices and has a significant competitive edge.",
       elements: [
         {
           type: "rating",
@@ -105,6 +107,7 @@ export const lowInvolvementProducts: Question = {
     {
       name: "Market Engagement",
       title: "Market Engagement",
+      description: "<b>Description:</b> Evaluates the level of interaction and engagement the brand has with its target audience. This encompasses digital interactions, customer feedback, loyalty programs, and more. <br><br> <b>Rationale:</b> Engaging effectively with the market ensures brand recall, loyalty, and can drive sales. Brands that actively engage are often top-of-mind for consumers.",
       elements: [
         {
           type: "rating",
@@ -135,6 +138,7 @@ export const lowInvolvementProducts: Question = {
     {
       name: "Customer Relationship",
       title: "Customer Relationship",
+      description: "<b>Description:</b> Assesses the depth and quality of the brand's relationship with its customers. This involves understanding the strength of customer loyalty, the effectiveness of customer support, the value provided to the customers, and how well the brand understands and caters to its customers' needs. <br><br> <b>Rationale:</b> Building and maintaining strong relationships with customers is essential for brand loyalty, repeat business, and word-of-mouth marketing. Brands that excel in customer relationships often see higher customer lifetime values and better advocacy rates.",
       elements: [
         {
           type: "rating",
@@ -165,6 +169,7 @@ export const lowInvolvementProducts: Question = {
     {
       name: "Product Excellence",
       title: "Product Excellence",
+      description: "<b>Description:</b> Assesses the range of products offered by the brand and/or the excellence in the quality of these products. <br><br> <b>Rationale:</b> Diverse product offerings cater to a broader audience and ensure that the brand remains relevant in varying market conditions. Alternatively, product excellence ensures a strong reputation and customer satisfaction.",
       elements: [
         {
           type: "rating",

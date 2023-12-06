@@ -5,6 +5,7 @@ import "survey-core/defaultV2.min.css";
 import { totalPoint } from '@/utils/result'
 import { Theme } from "@/theme/theme"
 import { useRouter } from "next/router";
+import { Converter } from "showdown";
 
 
 /**
@@ -18,6 +19,18 @@ export default function SurveyComponent({ model }: { model: Question }) {
 
     const survey = new Model(model);
     survey.applyTheme(Theme);
+
+    //Create showdown markdown converter
+    var converter = new Converter();
+    survey.onTextMarkdown.add(function(survey, options){
+        //convert the markdown text to html
+        var str = converter.makeHtml(options.text);
+        //remove root paragraphs <p></p>
+        str = str.substring(3);
+        str = str.substring(0, str.length - 4);
+        //set html
+        options.html = str;
+    });
 
     survey.onComplete.add((sender, options) => {
 
