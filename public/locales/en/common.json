@@ -1,29 +1,30 @@
 {
         "title": "Your brand type is:",
         "brandchartTitle": "Your brand chart is:",
+        "FooterBtn": "TOP 3 THIS WEEK",
         "SectionA": {
-                "titleA": "A. Descriptions",
+                "titleA": "Descriptions",
                 "exampleTitleA": "Example of Existing Brands:",
                 "metaphorTitle": "Metaphor:",
                 "strengthsTitle": "Strengths:",
                 "weaknessesTitle": "Weaknesses:"
         },
         "SectionB": {
-                "titleB": "B. Marketing Strategy",
+                "titleB": "Marketing Strategy",
                 "exampleTitleB": "Marketing Strategy Examples:",
                 "avoidMarketingTitle": "Marketing Strategy – to avoid:",
                 "trendsToCaptureTitle": "Trend Should be Captured:",
                 "trendsToAvoidTitle": "Trend Shouldn't be Captured:"
         },
         "SectionC": {
-                "titleC": "C. Communication Strategy",
+                "titleC": "Communication Strategy",
                 "commuStraTitle": "Communication Strategy:",
                 "mediaStraTitle": "Media Strategy:",
                 "avoidMediaStraTitle": "Media Strategy to Avoid:",
                 "medaiSelecTitle": "Media Selections:"
         },
         "SectionD": {
-                "titleD": "D. MI GROUP’s Roles",
+                "titleD": "MI GROUP’s Roles",
                 "strengthTitle": "Strength: ",
                 "mistrengthTitle": "MI GROUP to Strengthen Strengths:",
                 "leverageTitle": "Leverage:",
