@@ -12,13 +12,16 @@
   "dependencies": {
     "@dookdiks/utils": "^2.1.1",
     "chart.js": "^4.4.0",
+    "i": "^0.3.7",
     "i18next": "^23.7.7",
     "next": "14.0.3",
     "next-i18next": "^15.0.0",
+    "npm": "^10.2.4",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-i18next": "^13.5.0",
+    "showdown": "^2.1.0",
     "survey-react-ui": "^1.9.117"
   },
   "devDependencies": {
@@ -26,6 +29,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/showdown": "^2.0.6",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
