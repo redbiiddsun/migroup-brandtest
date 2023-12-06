@@ -1,63 +1,69 @@
 import {
-  Chart as ChartJS,
-  RadialLinearScale,
-  PointElement,
-  LineElement,
-  Filler,
-  Tooltip,
-  Legend,
-} from 'chart.js';
-import { Radar } from 'react-chartjs-2';
+	Chart as ChartJS,
+	RadialLinearScale,
+	PointElement,
+	LineElement,
+	Filler,
+	Tooltip,
+	Legend,
+	ChartOptions,
+	ChartData,
+} from "chart.js";
+import { Radar } from "react-chartjs-2";
 
 ChartJS.register(
-  RadialLinearScale,
-  PointElement,
-  LineElement,
-  Filler,
-  Tooltip,
-  Legend
+	RadialLinearScale,
+	PointElement,
+	LineElement,
+	Filler,
+	Tooltip,
+	Legend
 );
 
-export default function ChartComponent({ data }:any) {
+export default function ChartComponent({ data }: { data: summaryData }) {
+	const options: ChartOptions<"radar"> = {
+		scales: {
+			r: {
+				suggestedMin: 0,
+				suggestedMax: 5,
+				ticks: {
+					stepSize: 1,
+				},
+			},
+		},
+		plugins: {
+			legend: {
+				display: false,
+				labels: {
+					font: {
+						size: 20, // Set your desired font size for labels
+					},
+				},
+			},
+		},
+		maintainAspectRatio: true,
+		responsive: true,
+	};
 
-  const options = {
-    scales: {
-      r: {
-        suggestedMin: 0,  // Set your minimum value
-        suggestedMax: 5, // Set your maximum value
-        ticks: {
-          beginAtZero: true,
-          stepSize: 1,     // Set your desired step size
-        },
-      },
-    },
-    plugins: {
-      legend: {
-        display: false, // Set to false to hide the legend
-      },
-    },
-    maintainAspectRatio: true, // Set to false for responsiveness
-    responsive: true,           // Set to true for responsiveness
-  };
+	const chartData: ChartData<"radar", number[]> = {
+		labels: data?.chartData?.labels,
+		datasets: [
+			{
+				label: data.chartData.datasets.label,
+				data: data.chartData.datasets.data,
+				backgroundColor: data.animalDetail.bgcolor,
+				borderColor: data.animalDetail.color,
+				borderWidth: 1,
+			},
+		],
+	};
 
-  return (
-    <Radar
-      updateMode='resize'
-      datasetIdKey='id'
-      options={options}
-      data={{
-
-        labels: data?.chartData?.labels,
-        datasets: [
-          {
-            label: data?.chartData?.datasets?.label,
-            data: data?.chartData?.datasets?.data,
-            backgroundColor: data?.animalDetail?.bgcolor,
-            borderColor: data?.animalDetail?.color,
-            borderWidth: 1,
-          },
-        ],
-      }}
-    />
-  )
+	return (
+		<Radar
+			updateMode="resize"
+			datasetIdKey="id"
+			options={options}
+			data={chartData}
+		/>
+	);
 }
