@@ -20,10 +20,16 @@ ChartJS.register(
 	Legend
 );
 
+
 export default function ChartComponent({ data }: { data: summaryData }) {
 	const options: ChartOptions<"radar"> = {
 		scales: {
 			r: {
+				pointLabels: {
+					font: {
+					  size: 15
+					}
+				  },
 				suggestedMin: 0,
 				suggestedMax: 5,
 				ticks: {
@@ -34,13 +40,10 @@ export default function ChartComponent({ data }: { data: summaryData }) {
 		plugins: {
 			legend: {
 				display: false,
-				labels: {
-					font: {
-						size: 20, // Set your desired font size for labels
-					},
-				},
 			},
 		},
+		font:{size:15},
+
 		maintainAspectRatio: true,
 		responsive: true,
 	};
