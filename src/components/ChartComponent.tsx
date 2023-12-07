@@ -27,7 +27,7 @@ export default function ChartComponent({ data }: { data: summaryData }) {
 			r: {
 				pointLabels: {
 					font: {
-					  size: 15
+					  size: 13
 					}
 				  },
 				suggestedMin: 0,
