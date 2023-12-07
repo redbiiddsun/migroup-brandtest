@@ -32,11 +32,22 @@ export default function SurveyComponent({ model }: { model: Question }) {
         options.html = str;
     });
 
-    survey.onComplete.add((sender, options) => {
+    survey.onComplete.add(async (sender, options) => {
 
         // Calulate total point and return as a resultType
         const data = totalPoint(sender.data, model.type)
 
+        try {
+            await fetch('/api/SurveyOnSave', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            });
+        } catch (error) {
+            console.error('Error: ', error);
+        }
         
         if (router.locale == 'th') {
 
