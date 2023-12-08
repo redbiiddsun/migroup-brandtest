@@ -1,11 +1,4 @@
-// prisma.ts
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
-
-export { prisma };
-
-export type result_table = {
+type result_table = {
   id: number;
   elephant: number;
   lion: number;

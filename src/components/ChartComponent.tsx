@@ -44,7 +44,7 @@ export default function ChartComponent({ data }: { data: summaryData }) {
 		},
 		font:{size:15},
 
-		maintainAspectRatio: true,
+		maintainAspectRatio: false,
 		responsive: true,
 	};
 
@@ -63,6 +63,11 @@ export default function ChartComponent({ data }: { data: summaryData }) {
 
 	return (
 		<Radar
+			style={{
+				position: "relative",
+				width: "100%",
+				height: "auto",
+			}}
 			updateMode="resize"
 			datasetIdKey="id"
 			options={options}

@@ -2,7 +2,6 @@ import { resultTH } from '@/utils/result/result-th';
 import summaryData from '@/utils/summarydata';
 import { PrismaClient } from '@prisma/client';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { result_table } from '../../../prisma/prisma';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     const something = req.body as result;
@@ -10,10 +9,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const data = summaryData(something, "en");
       try {
         const result = await saveOnDatabase(data);
-        res.status(200).json(result);
+        return res.status(200).json(result);
       } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'Something went wrong.' });
+        return res.status(500).json({ error: 'Something went wrong.' });
       }
     }
 }
@@ -115,5 +114,6 @@ async function saveOnDatabase(data: summaryData) {
       }
     } catch (error) {
       console.error(error);
+      return;
     }
 }
