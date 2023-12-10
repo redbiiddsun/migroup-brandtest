@@ -24,14 +24,20 @@ export const Foorter = ({ t }: { t: TFunction<"common", undefined> }) => {
 					"text-xs flex flex-col lg:items-end md:items-end items-center md:mt-0 mt-16 scale-75 md:scale-90 lg:scale-100"
 				)}
 			>
-				<p>Surfed to you by MI GROUP</p>
-				<p>Powered by Generative AI</p>
+				<p
+					className={cn("mb-0.9")}
+				>Surfed to you by</p>
 				<Image
-					src="/assets/icons/Migroup.png"
+					src="/assets/icons/Migroup_crap.jpg"
 					alt="MiGroup"
-					width={120}
+					width={100}
 					height={100}
 				/>
+				<hr 
+					className={cn("w-full mb-1 mt-1")}
+				/>
+				<p>Powered by Generative AI</p>
+
 			</div>
 		</footer>
 	);
