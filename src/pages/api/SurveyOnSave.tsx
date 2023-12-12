@@ -1,4 +1,4 @@
-import { resultTH } from '@/utils/result/result-th';
+import { resultEN } from '@/utils/result/result-en';
 import summaryData from '@/utils/summarydata';
 import { PrismaClient } from '@prisma/client';
 import type { NextApiRequest, NextApiResponse } from 'next';
@@ -18,100 +18,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 
 async function saveOnDatabase(data: summaryData) {
-    const animal = data.animal as keyof typeof resultTH;
-    let res: result_table;
+    const animal = data.animal as keyof typeof resultEN;
 
     try {
       const prisma = new PrismaClient();
-      switch (animal) {
-        case 'Elephant':
-          res = await prisma.result.create({
-            data: {
-              elephant: 1,
-            },
-          });
-          return res;
-        case 'Lion':
-          res = await prisma.result.create({
-            data: {
-              lion: 1,
-            },
-          });
-          return res;
-        case 'Cheetah':
-          res = await prisma.result.create({
-            data: {
-              cheetah: 1,
-            },
-          });
-          return res;
-        case 'Swan':
-          res = await prisma.result.create({
-            data: {
-              swan: 1,
-            },
-          });
-          return res;
-        case 'Hawk':
-          res = await prisma.result.create({
-            data: {
-              hawk: 1,
-            },
-          });
-          return res;
-        case 'Horse':
-          res = await prisma.result.create({
-            data: {
-              horse: 1,
-            },
-          });
-          return res;
-        case 'Labrador':
-          res = await prisma.result.create({
-            data: {
-              labrador: 1,
-            },
-          });
-          return res;
-        case 'Turtle':
-          res = await prisma.result.create({
-            data: {
-              turtle: 1,
-            },
-          });
-          return res;
-        case 'Butterfly':
-          res = await prisma.result.create({
-            data: {
-              butterfly: 1,
-            },
-          });
-          return res;
-        case 'Dolphin':
-          res = await prisma.result.create({
-            data: {
-              dolphin: 1,
-            },
-          });
-          return res;
-        case 'Panda':
-          res = await prisma.result.create({
-            data: {
-              panda: 1,
-            },
-          });
-          return res;
-        case 'Fox':
-          res = await prisma.result.create({
-            data: {
-              fox: 1,
-            },
-          });
-          return res;
-        default:
-          console.log('This animal is not in the list, please check again.');
-          return;
-      }
+      const res = await prisma.survey_results.create({
+        data: {
+          animal: animal,
+        },
+      });
+      await prisma.$disconnect();
+      return res;
     } catch (error) {
       console.error(error);
       return;

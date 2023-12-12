@@ -7,18 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model result {
-  id        Int @id @default(autoincrement())
-  elephant  Int @default(0)
-  lion      Int @default(0)
-  cheetah   Int @default(0)
-  swan      Int @default(0)
-  hawk      Int @default(0)
-  horse     Int @default(0)
-  labrador  Int @default(0)
-  turtle    Int @default(0)
-  butterfly Int @default(0)
-  dolphin   Int @default(0)
-  panda     Int @default(0)
-  fox       Int @default(0)
+model survey_results {
+  id     Int    @id @default(autoincrement())
+  animal String @db.VarChar(255)
 }
